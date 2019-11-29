@@ -8,9 +8,30 @@ body {
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    border: 2px black solid;
 }
+
+
+.nav {
+    display: inline-block;
+}
+.nav-item {
+    display: inline-block;
+    margin-left: 20vw;
+    border: 2px black solid;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #96c11f;
+    font-size: 2vw;
+}
+
+
 
 .name-header { grid-area: header; }
 .name-hero { grid-area: hero; }
@@ -33,7 +54,8 @@ body {
 }
 .menu {
     height: 20vh;
-    background-color: brown;
+    border: solid black 3px ;
+    background-color: #faf7ec;
 }
 .hero {
     height: 40vh;
