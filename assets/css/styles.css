@@ -11,7 +11,7 @@ body {
     height: 50px;
     width: 50px;
 }
-
+/*css grid naming*/
 .name-header { grid-area: header; }
 .name-hero { grid-area: hero; }
 .name-time { grid-area: time; }
@@ -63,4 +63,10 @@ body {
 .footer {
     height: 20vh;
     background-color: teal;
+}
+
+.info-time, .info-social h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
