@@ -1,3 +1,59 @@
 *{
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+.name-header { grid-area: header; }
+.name-hero { grid-area: hero; }
+.name-time { grid-area: time; }
+.name-social { grid-area: social; }
+.name-img1 { grid-area: img1; }
+.name-img2 { grid-area: img2; }
+.name-tilmeld { grid-area: tilmeld; }
+.name-footer { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'hero hero'
+        'time social'
+        'img1 img2'
+        'tilmeld tilmeld'
+        'footer footer';
+}
+.menu {
+    height: 20vh;
+    background-color: brown;
+}
+.hero {
+    height: 40vh;
+    background-color: yellow;
+}
+.info-time {
+    height: 30vh;
+    background-color: blue;
+}
+.info-social {
+    height: 30vh;
+    background-color: green;
+}
+.img1 {
+    height: 30vh;
+    background-color: purple;
+}
+.img2 {
+    height: 30vh;
+    background-color: orange;
+}
+.tilmeld {
+    height: 5vh;
+    width: 8vw;
+    transform: translateX(500%);
+}
+.footer {
+    height: 20vh;
+    background-color: teal;
+}
