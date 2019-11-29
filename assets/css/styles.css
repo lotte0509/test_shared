@@ -5,32 +5,74 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 .logo {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
     margin-left: 5vw;
-    margin-top: 2vw;
-    border: 2px black solid;
+    margin-top: 8px;
+    position: relative;
 }
 
 
 .nav {
+    position: absolute;
     display: inline-block;
-}
-.nav-item {
-    display: inline-block;
-    margin-left: 20vw;
-    border: 2px black solid;
-}
-.nav-item a {
-    text-decoration: none;
-    color: #96c11f;
-    font-size: 2vw;
+    margin-top: 80px;
+    font-size: 25px;   
 }
 
+.nav-item1 {
+    display: inline-block;
+    margin-left: 10vw;
+    width: 200px;
+    text-align: center;
+}
+
+.nav-item2 {
+    display: inline-block;
+    margin-left: 6vw;
+    width: 200px;
+    text-align: center;
+    
+    
+}
+.nav-item3 {
+    display: inline-block;
+    margin-left: 6vw;
+    width: 200px;
+    text-align: center;   
+}
+
+.nav-item1 a {
+    text-decoration: none;
+    color: #96c11f;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.nav-item2 a {
+    text-decoration: none;
+    color: #96c11f;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.nav-item3 a {
+    text-decoration: none;
+    color: #96c11f;
+    text-shadow: 0.5px 0.5px black;  
+}
+
+.nav-item1 a:hover {
+    color: rgb(0, 0, 0);
+}
+.nav-item2 a:hover {
+    color: rgb(0, 0, 0);
+}
+.nav-item3 a:hover {
+    color: rgb(0, 0, 0);
+}
 
 
 .name-header { grid-area: header; }
@@ -54,11 +96,10 @@ body {
 }
 .menu {
     height: 20vh;
-    border: solid black 3px ;
     background-color: #faf7ec;
 }
 .hero {
-    height: 40vh;
+    height: 50vh;
     background-color: yellow;
 }
 .info-time {
@@ -83,6 +124,6 @@ body {
     transform: translateX(500%);
 }
 .footer {
-    height: 20vh;
+    height: 10vh;
     background-color: teal;
 }
