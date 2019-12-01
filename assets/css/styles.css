@@ -30,7 +30,6 @@ body {
 }
 .hero {
     height: 40vh;
-    background-color: yellow;
 }
 .info-time {
     height: 30vh;
@@ -59,7 +58,7 @@ body {
 }
 
 .hero {
-    background-image: url("assets/images");
+    background-image: url("assets/images/hero.jpg");
     background-size: cover;
     background-position: center center;
 }
