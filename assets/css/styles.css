@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FAF7EC;
 }
 
 .logo {
@@ -51,6 +52,9 @@ body {
         'img1 img2'
         'tilmeld tilmeld'
         'footer footer';
+}
+.grid-container {
+    margin: 20px 30px;
 }
 .menu {
     height: 20vh;
