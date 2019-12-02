@@ -11,8 +11,8 @@ body {
 .logo {
     height: 130px;
     width: 130px;
-    margin-left: 5vw;
-    margin-top: 8px;
+    margin-left: 3vw;
+    margin-top: 1.2vh;
     position: relative;
 }
 
@@ -20,47 +20,62 @@ body {
 .nav {
     position: absolute;
     display: inline-block;
-    margin-top: 80px;
-    font-size: 25px;   
+    margin-top: 7vh;
+    padding: 0;
+    width: 100%;
+    font-size: 2vw;
+    flex-wrap: wrap; 
+    
+    
 }
 
 .nav-item1 {
     display: inline-block;
-    margin-left: 10vw;
-    width: 200px;
+    margin-left: 6vw;
+    width: 16vw;
     text-align: center;
+    background-color: #7dc200;
+    padding: 1vh;
+    border-radius: 25px;
 }
 
 .nav-item2 {
     display: inline-block;
     margin-left: 6vw;
-    width: 200px;
+    width: 16vw;
     text-align: center;
+    padding: 1vh;
+    background-color: #7dc200;
+    border-radius: 25px;
     
     
 }
 .nav-item3 {
     display: inline-block;
     margin-left: 6vw;
-    width: 200px;
-    text-align: center;   
+    margin-right: 6vw;
+    width: 16vw;
+    text-align: center;
+    background-color: #7dc200;  
+    padding: 1vh; 
+    border-radius: 25px;
 }
 
 .nav-item1 a {
     text-decoration: none;
-    color: #96c11f;
+    color: #ffffff;
     text-shadow: 0.5px 0.5px black;
 }
 
 .nav-item2 a {
     text-decoration: none;
-    color: #96c11f;
+    color: #ffffff;
     text-shadow: 0.5px 0.5px black;
 }
 
 .nav-item3 a {
     text-decoration: none;
-    color: #96c11f;
+    color: #ffffff;
     text-shadow: 0.5px 0.5px black;  
 }
 
@@ -73,7 +88,6 @@ body {
 .nav-item3 a:hover {
     color: rgb(0, 0, 0);
 }
-
 
 .name-header { grid-area: header; }
 .name-hero { grid-area: hero; }
