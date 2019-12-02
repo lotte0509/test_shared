@@ -29,7 +29,7 @@ body {
     background-color: brown;
 }
 .hero {
-    height: 40vh;
+    height: 70vh;
 }
 .info-time {
     height: 30vh;
@@ -56,9 +56,24 @@ body {
     height: 20vh;
     background-color: teal;
 }
-
 .hero {
     background-image: url("assets/images/hero.jpg");
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    width: 100vw;
+}
+p {
+    width: 40vw;
+}
+.tilbud {
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-30%);
 }
