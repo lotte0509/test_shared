@@ -68,5 +68,10 @@ body {
 .info-time, .info-social h3{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 
+}
+.info-time, .info-social p{
+    font-size: 18px;
+    text-align: center;
 }
