@@ -144,6 +144,14 @@ h1 {
     margin-left: 20px;
     padding-top: 50px;
 }
+
+.hero h2{
+    font-size: 4vw;
+    margin-top: 90px;
+    margin-left: 25px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
 .hero p {
     width: 40vw;
     margin-left: 20px;
@@ -178,12 +186,20 @@ h1 {
     height: 30vh;
     font-size: 18px;
     text-align: center;
+    line-height: 2em;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
     
 }
 .info-social p{
     height: 30vh;
     font-size: 18px;
     text-align: center;
+    line-height: 2em;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 
 .footer {
