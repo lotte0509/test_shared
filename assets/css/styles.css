@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    background-color: #faf7ec;
 }
 
 .logo {
@@ -26,8 +27,6 @@ body {
     width: 100%;
     font-size: 1.6vw;
     flex-wrap: wrap; 
-    
-    
 }
 
 .nav-item1 {
@@ -47,9 +46,7 @@ body {
     text-align: center;
     padding: 1vh;
     background-color: #7dc200;
-    border-radius: 25px;
-    
-    
+    border-radius: 25px;     
 }
 .nav-item3 {
     display: inline-block;
@@ -114,21 +111,10 @@ body {
 }
 .menu {
     height: 20vh;
-    background-color: #faf7ec;
+    background-color: #ffffff;
 }
-.hero {
-    height: 60vh;
-    height: 50vh;
-    background-color: yellow;
-}
-.info-time {
-    height: 30vh;
-    background-color: blue;
-}
-.info-social {
-    height: 30vh;
-    background-color: green;
-}
+
+
 .img1 {
     height: 30vh;
     background-color: purple;
@@ -142,11 +128,9 @@ body {
     width: 8vw;
     transform: translateX(500%);
 }
-.footer {
-    height: 10vh;
-    background-color: teal;
-}
+
 .hero {
+    height: 60vh;
     background-image: url('../images/hero.jpg');
     background-size: cover;
     background-position: center center;
@@ -158,6 +142,7 @@ body {
 h1 {
     width: 90vw;
     margin-left: 20px;
+    padding-top: 50px;
 }
 .hero p {
     width: 40vw;
@@ -167,16 +152,78 @@ h1 {
     width: 450px;
     position: absolute;
     left: 50%;
-    top: 10%;
+    top: 20%; /* fra 10 til 20 */
     transform: translateX(-30%);
 }
-.info-time, .info-social h3{
+
+.info-time {
+    background-color: white;
+}
+
+.info-social {
+    background-color: white;
+}
+
+.info-time h3 {
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
 }
-.info-time, .info-social p{
+.info-social h3{
+    font-size: 30px;
+    text-align: center;
+
+}
+.info-time  p {
+    height: 30vh;
     font-size: 18px;
     text-align: center;
+    
+}
+.info-social p{
+    height: 30vh;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    height: 15vh;
+    background-color: teal;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+}
+
+.media-container {
+   text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.social-link a {
+    text-decoration: none;
+    
+}
+.media-link  {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border: solid black 1px;
+        text-align: center;
+        width: 50%;
+}
+.copyright-container {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+.copyright {
+    border: black 1px solid;
 }
