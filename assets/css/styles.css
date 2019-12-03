@@ -100,9 +100,11 @@ body {
 }
 h1 {
     width: 90vw;
+    margin-left: 20px;
 }
-p {
+.hero p {
     width: 40vw;
+    margin-left: 20px;
 }
 .tilbud {
     width: 450px;
