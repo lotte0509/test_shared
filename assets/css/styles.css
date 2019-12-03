@@ -5,34 +5,90 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #FAF7EC;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 .logo {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    margin-left: 5vw;
-    margin-top: 2vw;
-    border: 2px black solid;
+    height: 130px;
+    width: 130px;
+    margin-left: 3vw;
+    margin-top: 1.2vh;
+    position: absolute;
 }
 
 
 .nav {
+    position: relative;
     display: inline-block;
-}
-.nav-item {
-    display: inline-block;
+    margin-top: 7vh;
     margin-left: 20vw;
-    border: 2px black solid;
+    padding: 0;
+    width: 100%;
+    font-size: 1.6vw;
+    flex-wrap: wrap; 
+    
+    
 }
-.nav-item a {
+
+.nav-item1 {
+    display: inline-block;
+    margin-left: 10vw;
+    width: 16vw;
+    text-align: center;
+    background-color: #7dc200;
+    padding: 1vh;
+    border-radius: 25px;
+}
+
+.nav-item2 {
+    display: inline-block;
+    margin-left: 6vw;
+    width: 16vw;
+    text-align: center;
+    padding: 1vh;
+    background-color: #7dc200;
+    border-radius: 25px;
+    
+    
+}
+.nav-item3 {
+    display: inline-block;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: 16vw;
+    text-align: center;
+    background-color: #7dc200;  
+    padding: 1vh; 
+    border-radius: 25px;
+}
+
+.nav-item1 a {
     text-decoration: none;
-    color: #96c11f;
-    font-size: 2vw;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px black;
 }
 
+.nav-item2 a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px black;
+}
 
+.nav-item3 a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px black;  
+}
+
+.nav-item1 a:hover {
+    color: rgb(0, 0, 0);
+}
+.nav-item2 a:hover {
+    color: rgb(0, 0, 0);
+}
+.nav-item3 a:hover {
+    color: rgb(0, 0, 0);
+}
 
 .name-header { grid-area: header; }
 .name-hero { grid-area: hero; }
@@ -58,11 +114,12 @@ body {
 }
 .menu {
     height: 20vh;
-    border: solid black 3px ;
     background-color: #faf7ec;
 }
 .hero {
     height: 60vh;
+    height: 50vh;
+    background-color: yellow;
 }
 .info-time {
     height: 30vh;
@@ -86,7 +143,7 @@ body {
     transform: translateX(500%);
 }
 .footer {
-    height: 20vh;
+    height: 10vh;
     background-color: teal;
 }
 .hero {
