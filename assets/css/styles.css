@@ -89,7 +89,7 @@ body {
 .nav-item3 a:hover {
     color: rgb(0, 0, 0);
 }
-
+/*css grid naming*/
 .name-header { grid-area: header; }
 .name-hero { grid-area: hero; }
 .name-time { grid-area: time; }
@@ -169,4 +169,14 @@ h1 {
     left: 50%;
     top: 10%;
     transform: translateX(-30%);
+
+.info-time, .info-social h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.info-time, .info-social p{
+    font-size: 18px;
+    text-align: center;
 }
