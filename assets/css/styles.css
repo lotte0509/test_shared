@@ -8,7 +8,7 @@ body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     background-color: #faf7ec;
 }
-
+/*HEADER W/ LOGO AND NAV ITEMS*/
 .logo {
     height: 130px;
     width: 130px;
@@ -76,7 +76,7 @@ body {
     color: #ffffff;
     text-shadow: 0.5px 0.5px black;  
 }
-
+/*LINK STYLING*/
 .nav-item1 a:hover {
     color: rgb(0, 0, 0);
 }
@@ -86,7 +86,7 @@ body {
 .nav-item3 a:hover {
     color: rgb(0, 0, 0);
 }
-/*css grid naming*/
+/*CSS GRID NAMING*/
 .name-header { grid-area: header; }
 .name-hero { grid-area: hero; }
 .name-time { grid-area: time; }
@@ -96,6 +96,7 @@ body {
 .name-tilmeld { grid-area: tilmeld; }
 .name-footer { grid-area: footer; }
 
+/*PLACEMENT IN GRID - LAPTOP*/
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -128,7 +129,7 @@ body {
     width: 8vw;
     transform: translateX(500%);
 }
-
+/*HERO*/
 .hero {
     height: 60vh;
     background-image: url('../images/hero.jpg');
@@ -164,6 +165,7 @@ h1 {
     transform: translateX(-30%);
 }
 
+/*SECTION INFO BOX*/
 .info-time {
     background-color: white;
 }
@@ -171,7 +173,7 @@ h1 {
 .info-social {
     background-color: white;
 }
-
+/*TYPOGRAPHY STYLING*/
 .info-time h3 {
     font-size: 30px;
     text-align: center;
@@ -202,6 +204,7 @@ h1 {
     margin-bottom: 25px;
 }
 
+/*FOOTER*/
 .footer {
     height: 15vh;
     background-color: teal;
@@ -230,6 +233,11 @@ h1 {
         border: solid black 1px;
         text-align: center;
         width: 50%;
+}
+
+.fa-facebook-square{
+    font-size: 3em;
+    color:#94C11E;
 }
 .copyright-container {
     display: inline-block;
