@@ -114,7 +114,7 @@ body {
 
 
 /*HERO*/
-.hero {
+ .hero { 
     height: 70vh;
     background-image: url('../images/hero.jpg');
         /* Picture from Pexels.com */
@@ -123,12 +123,12 @@ body {
     background-repeat: no-repeat;
     display: block;
     color: white;
-    overflow: auto;
+    overflow: auto;  
 }
-h1 {
-    width: 60vw;
+ h1 {
+  width: 60vw;
     font-size: 3vw;
-    margin: 50px 0 10px 20px;
+    margin: 50px 0 10px 20px; 
 }
 
 .hero-text {
@@ -144,7 +144,7 @@ h1 {
     margin-top: 200px;
 }
 .tilbud {
-    width: 550px;
+    width: 450px;
     position: absolute;
     left: 65%;
     top: -25%; /* fra 10 til 20 */
@@ -219,7 +219,7 @@ h1 {
     text-align: center;
     padding: 15px 32px;
     margin-top: 10px;
-    width: 16vw;
+    width: 200px;
     text-decoration: none;
     border: none;
     background-color: #7dc200;
