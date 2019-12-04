@@ -116,13 +116,14 @@ body {
 
 
 .img1 {
-    height: 30vh;
-    background-color: purple;
+    height: 70vh;
+    
 }
 .img2 {
-    height: 30vh;
-    background-color: orange;
+    height: 70vh;
+   
 }
+
 .tilmeld {
     height: 5vh;
     width: 8vw;
