@@ -123,7 +123,9 @@ body {
     height: 70vh;
    
 }
-
+.img2 {
+    height: 70vh;
+}
 .tilmeld {
     height: 5vh;
     width: 8vw;
@@ -221,6 +223,7 @@ h1 {
 
 /*FOOTER*/
 .footer {
+    display: flex;
     height: 15vh;
     background-color: teal;
     margin-top: 20px;
@@ -228,41 +231,21 @@ h1 {
     width: 100%;
 }
 
-.media-container {
-   text-decoration: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    border: 1px solid black;
+.social-link {
+    margin-left: 10vw;
 }
 .social-link a {
     text-decoration: none;
-    
 }
-.media-link  {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        border: solid black 1px;
-        text-align: center;
-        width: 50%;
-}
-
 .fa-facebook-square{
     font-size: 3em;
     color:#94C11E;
 }
-.copyright-container {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    height: 70px;
-    border: 1px solid black;
-}
 
 .copyright {
-    border: black 1px solid;
+    
+    margin-left: 50vw;
+    margin-top: 10vh;
+    text-align: center;
 }
+
