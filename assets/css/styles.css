@@ -141,29 +141,26 @@ body {
     flex-wrap: wrap;
     color: white;
 }
-h1 {
-    width: 90vw;
-    margin-left: 20px;
-    padding-top: 50px;
-}
-
-.hero h2{
+.hero h1 {
     font-size: 4vw;
     margin-top: 90px;
     margin-left: 25px;
     margin-right: 200px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
+
+
 .hero p {
     width: 40vw;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-bottom: 100px
 }
 .tilbud {
     width: 450px;
     position: absolute;
     left: 50%;
     top: 20%; /* fra 10 til 20 */
-    transform: translateX(-30%);
+    transform: translateX(40%);
 }
 
 /*SECTION INFO BOX*/
