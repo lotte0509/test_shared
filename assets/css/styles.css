@@ -116,11 +116,11 @@ body {
 
 
 .img1 {
-    height: 70vh;
+    height: 95vh;
     
 }
 .img2 {
-    height: 70vh;
+    height: 95vh;
    
 }
 
@@ -222,49 +222,28 @@ h1 {
 }
 
 /*FOOTER*/
-.footer {
-    height: 15vh;
+footer {
+    display: flex;
+    height: 10vh;
     background-color: teal;
     margin-top: 20px;
     padding: 0;
     width: 100%;
 }
 
-.media-container {
-   text-decoration: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    border: 1px solid black;
+.social-link {
+    margin-left: 10vw;
 }
 .social-link a {
     text-decoration: none;
-    
 }
-.media-link  {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        border: solid black 1px;
-        text-align: center;
-        width: 50%;
-}
-
 .fa-facebook-square{
-    font-size: 3em;
+    font-size: 2em;
     color:#94C11E;
-}
-.copyright-container {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    height: 70px;
-    border: 1px solid black;
 }
 
 .copyright {
-    border: black 1px solid;
+    margin-left: 50vw;
+    text-align: center;
 }
+
