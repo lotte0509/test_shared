@@ -105,7 +105,6 @@ body {
         'img1 img2'
         'tilmeld tilmeld'
         'footer footer';
-
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -115,10 +114,29 @@ body {
 }
 
 .tilmeld {
-    height: 5vh;
-    width: 8vw;
-    transform: translateX(500%);
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    background-color: #faf7ec;
 }
+
+.btn {
+    text-align: center;
+    padding: 15px 32px;
+    margin-top: 10px;
+    width: 200px;
+    text-decoration: none;
+    border: none;
+    background-color: #7dc200;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
 /*HERO*/
 .hero {
     height: 70vh;
@@ -213,7 +231,6 @@ footer {
     display: flex;
     height: 10vh;
     background-color: #faf7ec;
-    margin-top: 20px;
     padding: 0;
     width: 100%;
 }
