@@ -117,16 +117,13 @@ body {
 
 .img1 {
     height: 70vh;
-    background-color: purple;
+    
 }
 .img2 {
     height: 70vh;
-    background-color: orange;
-    height: 30vh;
+   
 }
-.img2 {
-    height: 30vh;
-}
+
 .tilmeld {
     height: 5vh;
     width: 8vw;
