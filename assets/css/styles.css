@@ -116,17 +116,15 @@ body {
 /*HERO*/
 .hero {
     height: 70vh;
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/hero7.jpg');
         /* Picture from Pexels.com */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    display: block;
     color: white;
-    overflow: auto;
 }
 h1 {
-    width: 60vw;
+    width: 50vw;
     font-size: 3vw;
     margin: 50px 0 10px 20px;
 }
@@ -142,13 +140,6 @@ h1 {
     font-size: .9vw;
     margin-left: 20px;
     margin-top: 200px;
-}
-.tilbud {
-    width: 550px;
-    position: absolute;
-    left: 65%;
-    top: -25%; /* fra 10 til 20 */
-    transform: translateY(80%);
 }
 
 /*SECTION INFO BOX*/
