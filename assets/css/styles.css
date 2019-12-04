@@ -22,9 +22,8 @@ body {
     position: relative;
     display: inline-block;
     margin-top: 7vh;
-    margin-left: 20vw;
+    margin-left: 15vw;
     padding: 0;
-    width: 100%;
     font-size: 1.6vw;
     flex-wrap: wrap; 
 }
@@ -205,13 +204,13 @@ h1 {
 
 /* Two images */
 .img1 {
-    background-image: url(../images/);
+    background-image: url(../images/Billede2.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .img2 {
-    background-image: url(../images/);
+    background-image: url(../images/Billede1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
