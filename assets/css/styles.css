@@ -131,7 +131,7 @@ body {
 }
 /*HERO*/
 .hero {
-    height: 60vh;
+    height: 80vh;
     background-image: url('../images/hero.jpg');
         /* Picture from Pexels.com */
     background-size: cover;
@@ -193,6 +193,7 @@ h1 {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
+    overflow: auto;
     
 }
 .info-social p{
@@ -203,19 +204,20 @@ h1 {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
+    overflow: auto;
 }
 
 /* Two images */
 .img1 {
     background-image: url(../images/Billede2.png);
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: center left;
     background-repeat: no-repeat;
 }
 .img2 {
     background-image: url(../images/Billede1.png);
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: center right;
     background-repeat: no-repeat;
 }
 
