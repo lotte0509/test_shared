@@ -22,9 +22,8 @@ body {
     position: relative;
     display: inline-block;
     margin-top: 7vh;
-    margin-left: 20vw;
+    margin-left: 15vw;
     padding: 0;
-    width: 100%;
     font-size: 1.6vw;
     flex-wrap: wrap; 
 }
