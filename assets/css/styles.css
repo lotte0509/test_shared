@@ -161,6 +161,7 @@ body {
     left: 50%;
     top: 20%; /* fra 10 til 20 */
     transform: translateX(40%);
+    transform: translateY(50%);
 }
 
 /*SECTION INFO BOX*/
