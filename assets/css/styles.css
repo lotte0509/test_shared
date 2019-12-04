@@ -207,13 +207,13 @@ h1 {
 
 /* Two images */
 .img1 {
-    background-image: url(../images/);
+    background-image: url(../images/Billede2.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .img2 {
-    background-image: url(../images/);
+    background-image: url(../images/Billede1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
