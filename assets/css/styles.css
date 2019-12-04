@@ -131,7 +131,7 @@ body {
 }
 /*HERO*/
 .hero {
-    height: 80vh;
+    height: 70vh;
     background-image: url('../images/hero.jpg');
         /* Picture from Pexels.com */
     background-size: cover;
@@ -193,7 +193,6 @@ h1 {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
-    overflow: auto;
     
 }
 .info-social p{
@@ -204,7 +203,6 @@ h1 {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
-    overflow: auto;
 }
 
 /* Two images */
