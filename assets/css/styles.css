@@ -133,6 +133,7 @@ body {
 .hero {
     height: 60vh;
     background-image: url('../images/hero.jpg');
+        /* Picture from Pexels.com */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -202,6 +203,20 @@ h1 {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
+}
+
+/* Two images */
+.img1 {
+    background-image: url(../images/);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.img2 {
+    background-image: url(../images/);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 /*FOOTER*/
