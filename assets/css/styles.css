@@ -116,16 +116,14 @@ body {
 
 
 .img1 {
-    height: 70vh;
+    height: 95vh;
     
 }
 .img2 {
-    height: 70vh;
+    height: 95vh;
    
 }
-.img2 {
-    height: 70vh;
-}
+
 .tilmeld {
     height: 5vh;
     width: 8vw;
@@ -143,27 +141,29 @@ body {
     flex-wrap: wrap;
     color: white;
 }
-.hero h1 {
+h1 {
+    width: 90vw;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.hero h2{
     font-size: 4vw;
     margin-top: 90px;
     margin-left: 25px;
     margin-right: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-
-
 .hero p {
     width: 40vw;
-    margin-left: 40px;
-    margin-bottom: 100px
+    margin-left: 20px;
 }
 .tilbud {
     width: 450px;
     position: absolute;
     left: 50%;
     top: 20%; /* fra 10 til 20 */
-    transform: translateX(40%);
-    transform: translateY(50%);
+    transform: translateX(-30%);
 }
 
 /*SECTION INFO BOX*/
@@ -220,9 +220,9 @@ body {
 }
 
 /*FOOTER*/
-.footer {
+footer {
     display: flex;
-    height: 15vh;
+    height: 10vh;
     background-color: teal;
     margin-top: 20px;
     padding: 0;
@@ -236,14 +236,12 @@ body {
     text-decoration: none;
 }
 .fa-facebook-square{
-    font-size: 3em;
+    font-size: 2em;
     color:#94C11E;
 }
 
 .copyright {
-    
     margin-left: 50vw;
-    margin-top: 10vh;
     text-align: center;
 }
 
