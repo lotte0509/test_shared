@@ -37,7 +37,7 @@ body {
     border-radius: 25px;
 }
 
-.nav-item2 {
+.nav-item2, .nav-item3 {
     display: inline-block;
     margin-left: 2vw;
     width: 15vw;
@@ -46,43 +46,18 @@ body {
     background-color: #7dc200;
     border-radius: 25px;     
 }
-.nav-item3 {
-    display: inline-block;
-    margin-left: 2vw;
-    width: 15vw;
-    text-align: center;
-    background-color: #7dc200;  
-    padding: 1vh; 
-    border-radius: 25px;
-}
 
-.nav-item1 a {
+.nav-item1 a, .nav-item2 a, .nav-item3 a {
     text-decoration: none;
     color: #ffffff;
     text-shadow: 0.5px 0.5px black;
 }
 
-.nav-item2 a {
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: 0.5px 0.5px black;
-}
-
-.nav-item3 a {
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: 0.5px 0.5px black;  
-}
 /*LINK STYLING*/
-.nav-item1 a:hover {
-    color: rgb(0, 0, 0);
+.nav-item1 a:hover, .nav-item2 a:hover, .nav-item3 a:hover {
+    color: #000;
 }
-.nav-item2 a:hover {
-    color: rgb(0, 0, 0);
-}
-.nav-item3 a:hover {
-    color: rgb(0, 0, 0);
-}
+
 /*CSS GRID NAMING*/
 .name-header { grid-area: header; }
 .name-hero { grid-area: hero; }
@@ -143,64 +118,37 @@ h1 {
 }
 
 /*SECTION INFO BOX*/
-.info-time {
+.info-time, .info-social {
     background-color: #faf7ec;
-    height: fit-content;
 }
 
-.info-social {
-    background-color: #faf7ec;
-}
 /*TYPOGRAPHY STYLING*/
-.info-time h3 {
+h3 {
     font-size: 30px;
     text-align: center;
-
 }
-.info-social h3{
-    font-size: 30px;
-    text-align: center;
-
-}
-.info-time  p {
+.info-time  p, .info-social p {
     
     font-size: 18px;
     text-align: center;
     line-height: 2em;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    
+    margin: 0 25px 25px 25px;
 }
-.info-social p{
-    
-    font-size: 18px;
-    text-align: center;
-    line-height: 2em;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
+
 
 /* Two images */
 .img1 {
     background-image: url(../images/Billede2.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 95vh;
-    width: 100%;
-    
-    
 }
 .img2 {
     background-image: url(../images/Billede1.png);
+}
+.img1, .img2 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 95vh;
     width: 100%;
-
 }
 
 /* Tilmeld button */
@@ -273,14 +221,9 @@ footer {
         margin-left: 70px;
         width: 20vw;
     }
-    .nav-item2 {
-        
+    .nav-item2, .nav-item3 {
         width: 20vw;   
     }
-    .nav-item3 {
-
-        width: 20vw;    
-}
 }
 
 /* Mobile version */
@@ -357,18 +300,45 @@ h3 {
         margin: 0; 
         border-radius: 0px;
     }
-    .nav-item2 {
+    .nav-item2, .nav-item3 {
         display: block;
         width: 100%;   
         margin: 0;
         border-radius: 0px; 
     }
-    .nav-item3 {
+
+    .btn {
+        width: auto;
+        font-size: 20px;
+    }
+    footer {
         display: block;
+        text-align: center;
+        
+        background-color: #faf7ec;
+        padding: 0;
         width: 100%;
-        margin: 0;
-        border-radius: 0px;    
-}
-}
+    }
+    
+    .social-link {
+        margin-left: 0px;
+        margin-top: 3vh;
+        
+    }
+    .social-link a {
+        text-decoration: none;
+        
+    }
+    .fa-facebook-square{
+        font-size: 1.5em;
+        color:#94C11E;
+    }
+    
+    .copyright {
+        margin-left: 0;
+        margin-top: 0vh;
+        text-align: center;
+    }
+    }
     
 
