@@ -299,46 +299,38 @@ footer {
         margin: 0;
         grid-template-columns: 1fr;
     }
-.logo {
-    width: 100px;
-    height: 100px;
-}
 .hero {
     height: 100%;
 }
 h1 {
     width: 80vw;
     font-size: 4vw;
-    line-height: 3vh;
-    margin: 20px 0 20px 20px; 
+    line-height: 1.5em;
+    margin-top: 20px;
 }
 .hero-text {
-    width: 60vw;
+    width: 50vw;
     font-size: 2.5vw;
-    line-height: 2.3vh;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    line-height: 1.5em;
 }
 .hero-text2 {
     width: 70vw;
     font-size: 2.1vw;
-    margin-left: 20px;
     margin-top: 90px;
 }
 h3 {
-    width: 100vw;
-    font-size: 3vw;
-    line-height: 5.1vh;
-    margin: 10px 0 0 20px;
+    width: 70vw;
+    font-size: 3.5vw;
+    line-height: 1.5em;
+    margin: 10px 70px 0 70px;
 }
 .info-time p, .info-social p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7em;
 }
 .img1 {
     height: 70vh;
-    background-size: cover;
-    width: 100%;
+    background-size: contain;
 }
 .img2 {
     height: 50vh;
