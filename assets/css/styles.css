@@ -115,7 +115,7 @@ body {
 
 /*HERO*/
  .hero { 
-    height: 70vh;
+    height: 100%;
     background-image: url('../images/hero7.jpg');
         /* Picture from Pexels.com */
     background-size: cover;
@@ -271,5 +271,18 @@ footer {
 /* Mobile version */
 
 @media (min-width:319 px) and (max-width:767 px) {
-
+    .grid-container {
+        grid-template-areas:
+        'header'
+        'hero'
+        'time'
+        'img1'
+        'social'
+        'img2'
+        'tilmeld'
+        'footer';
+        margin: 0;
+        grid-template-columns: 1fr;
+        
+    }
 }
