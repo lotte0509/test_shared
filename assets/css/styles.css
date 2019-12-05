@@ -145,6 +145,7 @@ h1 {
 /*SECTION INFO BOX*/
 .info-time {
     background-color: #faf7ec;
+    height: fit-content;
 }
 
 .info-social {
@@ -264,8 +265,8 @@ footer {
 
 /* Tablet version */
 
-@media (min-width:768px) and (max-width: px) {
-
+@media (min-width:768px) and (max-width:1100px) {
+    
 }
 
 /* Mobile version */
