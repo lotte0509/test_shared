@@ -262,3 +262,14 @@ footer {
     text-align: center;
 }
 
+/* Tablet version */
+
+@media (min-width: px) and (max-width: px) {
+
+}
+
+/* Mobile version */
+
+@media (min-width: px) and (max-width: px) {
+
+}
