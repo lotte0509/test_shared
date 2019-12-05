@@ -97,13 +97,14 @@ body {
 .grid-container {
     display: grid;
     grid-template-areas:
-        'header header header header'
-        'hero hero hero hero'
-        'time time social social'
-        'img1 img1 img2 img2'
-        'tilmeld tilmeld tilmeld tilmeld'
-        'footer footer footer footer';
+        'header header'
+        'hero hero'
+        'time social'
+        'img1  img2 '
+        'tilmeld  tilmeld'
+        'footer footer';
     margin: 0 30px;
+    grid-template-columns: 1fr 1fr;
     
 }
 .menu {
@@ -187,6 +188,7 @@ h1 {
     background-position: center center;
     background-repeat: no-repeat;
     height: 95vh;
+    width: 100%;
     
     
 }
@@ -196,7 +198,8 @@ h1 {
     background-position: center center;
     background-repeat: no-repeat;
     height: 95vh;
-   
+    width: 100%;
+
 }
 
 /* Tilmeld button */
@@ -259,3 +262,14 @@ footer {
     text-align: center;
 }
 
+/* Tablet version */
+
+@media (min-width: px) and (max-width: px) {
+
+}
+
+/* Mobile version */
+
+@media (min-width: px) and (max-width: px) {
+
+}
