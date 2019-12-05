@@ -163,7 +163,7 @@ h1 {
 
 }
 .info-time  p {
-    height: 30vh;
+    
     font-size: 18px;
     text-align: center;
     line-height: 2em;
@@ -173,7 +173,7 @@ h1 {
     
 }
 .info-social p{
-    height: 30vh;
+    
     font-size: 18px;
     text-align: center;
     line-height: 2em;
@@ -266,7 +266,21 @@ footer {
 /* Tablet version */
 
 @media (min-width:768px) and (max-width:1100px) {
-    
+    .nav {
+        font-size: 2vw; 
+    }   
+    .nav-item1 {
+        margin-left: 70px;
+        width: 20vw;
+    }
+    .nav-item2 {
+        
+        width: 20vw;   
+    }
+    .nav-item3 {
+
+        width: 20vw;    
+}
 }
 
 /* Mobile version */
