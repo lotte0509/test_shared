@@ -286,5 +286,17 @@ footer {
 /* Mobile version */
 
 @media (min-width:319px) and (max-width:767px) {
-
-}
+    .grid-container {
+        grid-template-areas:
+        'header'
+        'hero'
+        'time'
+        'img1'
+        'social'
+        'img2'
+        'tilmeld'
+        'footer';
+        margin: 0;
+        grid-template-columns: 1fr;
+        
+    }
