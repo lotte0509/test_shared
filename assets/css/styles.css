@@ -214,6 +214,20 @@ footer {
 /* Tablet version */
 
 @media (min-width:768px) and (max-width:1100px) {
+    .grid-container {
+        grid-template-areas:
+        'header'
+        'hero'
+        'time'
+        'img1'
+        'social'
+        'img2'
+        'tilmeld'
+        'footer';
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+    
     .nav {
         font-size: 2vw; 
     }   
@@ -224,7 +238,74 @@ footer {
     .nav-item2, .nav-item3 {
         width: 20vw;   
     }
+    .hero {
+        height: 100%;
+    }
+    h1 {
+        width: 80vw;
+        font-size: 4vw;
+        line-height: 1.5em;
+        margin-top: 20px;
+    }
+    .hero-text {
+        width: 50vw;
+        font-size: 2.5vw;
+        line-height: 1.5em;
+    }
+    .hero-text2 {
+        width: 70vw;
+        font-size: 2.1vw;
+        margin-top: 90px;
+    }
+    h3 {
+        width: 100%;
+        font-size: 3.5vw;
+        line-height: 1.5em;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .info-time p, .info-social p {
+        font-size: 15px;
+        line-height: 1.7em;
+
+    }
+    .img1 {
+        height: 70vh;
+        background-size: contain;
+    }
+    .img2 {
+        height: 50vh;
+        width: 100%;
+    }
+    footer {
+        display: block;
+        text-align: center;
+        background-color: #faf7ec;
+        padding: 0;
+        width: 100%;
+    }
+        
+    .social-link {
+        margin-left: 0px;
+        margin-top: 5vh;
+            
+    }
+    .social-link a {
+        text-decoration: none;
+            
+    }
+    .fa-facebook-square{
+        font-size: 1.5em;
+        color:#94C11E;
+    }
+        
+    .copyright {
+        margin-left: 0;
+        margin-top: 0vh;
+        text-align: center;
+    }
 }
+
 
 /* Mobile version */
 
@@ -262,10 +343,10 @@ h1 {
     margin-top: 90px;
 }
 h3 {
-    width: 70vw;
+    width: 100%;
     font-size: 3.5vw;
     line-height: 1.5em;
-    margin: 10px 70px 0 70px;
+    margin-top: 10px;
 }
 .info-time p, .info-social p {
     font-size: 15px;
@@ -279,66 +360,65 @@ h3 {
     height: 50vh;
     width: 100%;
 }
-    .menu {
-        display: block;
+.menu {
+    display: block;
         
-        width: 100%;
+    width: 100%;
     }
-    .logo {
-        display: none;
+.logo {
+    display: none;
     }
-    .nav {
-        display: block;
-        font-size: 2vw; 
-        width: 100%;
-        margin: 0;
+.nav {
+    display: block;
+    font-size: 2vw; 
+    width: 100%;
+    margin: 0;
     }   
-    .nav-item1 {
-        display: block;
-        margin-left: 70px;
-        width: 100%;
-        margin: 0; 
-        border-radius: 0px;
+.nav-item1 {
+    display: block;
+    margin-left: 70px;
+    width: 100%;
+    margin: 0; 
+    border-radius: 0px;
     }
-    .nav-item2, .nav-item3 {
-        display: block;
-        width: 100%;   
-        margin: 0;
-        border-radius: 0px; 
+.nav-item2, .nav-item3 {
+    display: block;
+    width: 100%;   
+    margin: 0;
+    border-radius: 0px; 
     }
 
-    .btn {
-        width: auto;
-        font-size: 20px;
+.btn {
+    width: auto;
+    font-size: 20px;
     }
-    footer {
-        display: block;
-        text-align: center;
-        
-        background-color: #faf7ec;
-        padding: 0;
-        width: 100%;
-    }
+footer {
+    display: block;
+    text-align: center;
+    background-color: #faf7ec;
+    padding: 0;
+    width: 100%;
+}
     
-    .social-link {
-        margin-left: 0px;
-        margin-top: 3vh;
+.social-link {
+    margin-left: 0px;
+    margin-top: 5vh;
         
-    }
-    .social-link a {
-        text-decoration: none;
+}
+.social-link a {
+    text-decoration: none;
         
-    }
-    .fa-facebook-square{
-        font-size: 1.5em;
-        color:#94C11E;
-    }
+}
+.fa-facebook-square{
+    font-size: 1.5em;
+    color:#94C11E;
+}
     
-    .copyright {
-        margin-left: 0;
-        margin-top: 0vh;
-        text-align: center;
-    }
-    }
+.copyright {
+    margin-left: 0;
+    margin-top: 0vh;
+    text-align: center;
+}
+}
     
 
