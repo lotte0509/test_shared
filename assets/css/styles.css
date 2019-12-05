@@ -239,7 +239,7 @@ h1 {
 /*FOOTER*/
 footer {
     display: flex;
-    height: 10vh;
+    height: 10%;
     background-color: #faf7ec;
     padding: 0;
     width: 100%;
@@ -264,12 +264,12 @@ footer {
 
 /* Tablet version */
 
-@media (min-width: px) and (max-width: px) {
+@media (min-width:768 px) and (max-width: px) {
 
 }
 
 /* Mobile version */
 
-@media (min-width: px) and (max-width: px) {
+@media (min-width:319 px) and (max-width:767 px) {
 
 }
