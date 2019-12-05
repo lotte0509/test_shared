@@ -264,10 +264,16 @@ footer {
         margin-top: 10px;
         text-align: center;
     }
-    .info-time p, .info-social p {
+    .info-time p 
+     {
         font-size: 15px;
         line-height: 1.7em;
-
+    }
+    .info-social p {
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 15px;
+        line-height: 1.7em;
     }
     .img1 {
         height: 70vh;
