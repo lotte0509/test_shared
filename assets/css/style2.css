@@ -109,7 +109,7 @@ button:focus {outline:0;}
 h3 {
     font-size: 2vw;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 180px;
     color: white;
     text-shadow: 2px 2px 5px black;
 }
@@ -120,26 +120,25 @@ h3 {
     line-height: 2em;
     margin: 0px 25px 25px 25px;
     color: white;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 1px 1px 2px black;
 }
 
 
 /* Two images */
 .img1 {
     background-image: url(../images/social.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+  
     /* https://partnerfordele.coop.dk/loop-fitness */
 }
 .img2 {
     background-image: url(../images/Billede1.png);
+   
 }
 .img1, .img2 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -209,9 +208,9 @@ footer {
     .grid-container {
         grid-template-areas:
         'header'
-        'time'
-        'img1'
         'social'
+        'img1'
+        'time'
         'img2'
         'tilmeld'
         'footer';
@@ -238,7 +237,7 @@ footer {
         text-align: center;
     }
     .info-time p {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.7em;
         margin-left: 150px;
         margin-right: 150px;
@@ -246,11 +245,11 @@ footer {
     .info-social p {
         margin-left: 150px;
         margin-right: 150px;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.7em;
     }
     .img1 {
-        height: 70vh;
+        height: 50vh;
         background-size: cover;
     }
     .img2 {
@@ -293,9 +292,9 @@ footer {
     .grid-container {
         grid-template-areas:
         'header'
-        'time'
-        'img1'
         'social'
+        'img1'
+        'time'
         'img2'
         'tilmeld'
         'footer';
@@ -310,13 +309,13 @@ h3 {
     margin-top: 10px;
 }
 .info-time p, .info-social p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.7em;
 }
 
 .img1 {
-    height: 70vh;
-    background-size: contain;
+    height: 50vh;
+    background-size: cover;
 }
 .img2 {
     height: 50vh;
