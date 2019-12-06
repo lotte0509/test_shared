@@ -113,7 +113,8 @@ h3 {
 
 /* Two images */
 .img1 {
-    background-image: url(../images/Billede2.png);
+    background-image: url(../images/social.jpg);
+    /* https://partnerfordele.coop.dk/loop-fitness */
 }
 .img2 {
     background-image: url(../images/Billede1.png);
