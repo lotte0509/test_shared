@@ -121,6 +121,9 @@ h3 {
 /* Two images */
 .img1 {
     background-image: url(../images/social.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     /* https://partnerfordele.coop.dk/loop-fitness */
 }
 .img2 {
