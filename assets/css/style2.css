@@ -136,7 +136,7 @@ h3 {
 }
 .img1, .img2 {
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     height: 80vh;
     width: 100%;
