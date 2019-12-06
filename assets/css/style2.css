@@ -72,8 +72,8 @@ body {
     display: grid;
     grid-template-areas:
         'header header'
-        'time social'
-        'img1  img2 '
+        'img1 social'
+        'time  img2 '
         'tilmeld  tilmeld'
         'footer footer';
     margin: 0 30px;
@@ -94,7 +94,7 @@ button:focus {outline:0;}
 
 /*SECTION INFO BOX*/
 .info-time, .info-social {
-    background-color: #faf7ec;
+    background-color: #bfda79;
 }
 
 /*TYPOGRAPHY STYLING*/
