@@ -107,15 +107,20 @@ button:focus {outline:0;}
 
 /*TYPOGRAPHY STYLING*/
 h3 {
-    font-size: 25px;
+    font-size: 2vw;
     text-align: center;
+    margin-top: 200px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
 .info-time  p, .info-social p {
     
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     line-height: 2em;
-    margin: 0 25px 25px 25px;
+    margin: 0px 25px 25px 25px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
 
 
@@ -233,18 +238,20 @@ footer {
         text-align: center;
     }
     .info-time p {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.7em;
+        margin-left: 150px;
+        margin-right: 150px;
     }
     .info-social p {
         margin-left: 150px;
         margin-right: 150px;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.7em;
     }
     .img1 {
         height: 70vh;
-        background-size: contain;
+        background-size: cover;
     }
     .img2 {
         height: 50vh;
