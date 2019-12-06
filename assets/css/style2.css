@@ -93,7 +93,14 @@ button:focus {outline:0;}
 
 
 /*SECTION INFO BOX*/
-.info-time, .info-social {
+.info-time {
+    background-image: url(../images/greenloop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.info-social {
     background-color: #bfda79;
 }
 
