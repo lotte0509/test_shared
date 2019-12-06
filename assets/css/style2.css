@@ -127,13 +127,13 @@ h3 {
 /* Two images */
 .img1 {
     background-image: url(../images/social.jpg);
-  
     /* https://partnerfordele.coop.dk/loop-fitness */
 }
 .img2 {
     background-image: url(../images/guyjpg.jpg);
-   
+    /* https://loopfitness.com/da/skovlunde/ */
 }
+
 .img1, .img2 {
     background-size: cover;
     background-position: top center;
@@ -147,7 +147,6 @@ h3 {
     width: 100%;
     text-align: center;
     background-color: #faf7ec;
-    
 }
 
 .btn {
