@@ -1,3 +1,374 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    background-color: #faf7ec;
+}
+/*HEADER W/ LOGO AND NAV ITEMS*/
+.logo {
+    height: 130px;
+    width: 130px;
+    margin-left: 3vw;
+    margin-top: 1.2vh;
+    position: absolute;
+}
+
+.nav {
+    position: relative;
+    display: inline-flex;
+    margin-top: 7vh;
+    margin-left: 15vw;
+    padding: 0;
+    font-size: 1.6vw;
+    flex-wrap: nowrap; 
+}
+
+.nav-item1 {
+    display: inline-block;
+    margin-left: 100px;
+    width: 15vw;
+    text-align: center;
+    background-color: #7dc200;
+    padding: 1vh;
+    border-radius: 25px;
+}
+
+.nav-item2, .nav-item3 {
+    display: inline-block;
+    margin-left: 2vw;
+    width: 15vw;
+    text-align: center;
+    padding: 1vh;
+    background-color: #7dc200;
+    border-radius: 25px;     
+}
+
+.nav-item1 a, .nav-item2 a, .nav-item3 a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px black;
+}
+
+/*LINK STYLING*/
+.nav-item1 a:hover, .nav-item2 a:hover, .nav-item3 a:hover {
+    color: #000;
+}
+
+/*CSS GRID NAMING*/
+.name-header { grid-area: header; }
+.name-time { grid-area: time; }
+.name-social { grid-area: social; }
+.name-img1 { grid-area: img1; }
+.name-img2 { grid-area: img2; }
+.name-tilmeld { grid-area: tilmeld; }
+.name-footer { grid-area: footer; }
+
+/*PLACEMENT IN GRID - LAPTOP*/
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'time social'
+        'img1  img2 '
+        'tilmeld  tilmeld'
+        'footer footer';
+    margin: 0 30px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.menu {
+    height: 20vh;
+    background-color: #faf7ec;
+}
+
+
+/*HERO*/
+
+
+button:focus {outline:0;}
+
+
+/*SECTION INFO BOX*/
+.info-time, .info-social {
+    background-color: #faf7ec;
+}
+
+/*TYPOGRAPHY STYLING*/
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+.info-time  p, .info-social p {
+    
+    font-size: 18px;
+    text-align: center;
+    line-height: 2em;
+    margin: 0 25px 25px 25px;
+}
+
+
+/* Two images */
+.img1 {
+    background-image: url(../images/Billede2.png);
+}
+.img2 {
+    background-image: url(../images/Billede1.png);
+}
+.img1, .img2 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;
+}
+
+/* Tilmeld button */
+.tilmeld {
+    width: 100%;
+    text-align: center;
+    background-color: #faf7ec;
+    
+}
+
+.btn {
+    text-align: center;
+    padding: 15px 32px;
+    margin-top: 10px;
+    width: 200px;
+    text-decoration: none;
+    border: none;
+    background-color: #7dc200;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.btn:active {
+    transform: translate(0,1px);
+    transition: background-color .1s ease-in-out, transform .1s ease-in-out, box-shadow .1s ease-in-out;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    height: 10%;
+    background-color: #faf7ec;
+    padding: 0;
+    width: 100%;
+}
+
+.social-link {
+    margin-left: 10vw;
+}
+.social-link a {
+    text-decoration: none;
+}
+.fa-facebook-square{
+    font-size: 1.5em;
+    color:#94C11E;
+}
+
+.copyright {
+    margin-left: 60vw;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+/* Tablet version */
+
+@media (min-width:768px) and (max-width:1100px) {
+    .grid-container {
+        grid-template-areas:
+        'header'
+        'time'
+        'img1'
+        'social'
+        'img2'
+        'tilmeld'
+        'footer';
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+    
+    .nav {
+        font-size: 2vw; 
+    }   
+    .nav-item1 {
+        margin-left: 70px;
+        width: 20vw;
+    }
+    .nav-item2, .nav-item3 {
+        width: 20vw;   
+    }
+
+    h3 {
+        width: 100%;
+        font-size: 3.5vw;
+        line-height: 1.5em;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .info-time p {
+        font-size: 15px;
+        line-height: 1.7em;
+    }
+    .info-social p {
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 15px;
+        line-height: 1.7em;
+    }
+    .img1 {
+        height: 70vh;
+        background-size: contain;
+    }
+    .img2 {
+        height: 50vh;
+        width: 100%;
+    }
+    footer {
+        display: block;
+        text-align: center;
+        background-color: #faf7ec;
+        padding: 0;
+        width: 100%;
+    }
+        
+    .social-link {
+        margin-left: 0px;
+        margin-top: 5vh;
+            
+    }
+    .social-link a {
+        text-decoration: none;
+            
+    }
+    .fa-facebook-square{
+        font-size: 1.5em;
+        color:#94C11E;
+    }
+        
+    .copyright {
+        margin-left: 0;
+        margin-top: 0vh;
+        text-align: center;
+    }
+}
+
+
+/* Mobile version */
+
+@media (min-width:319px) and (max-width:767px) {
+    .grid-container {
+        grid-template-areas:
+        'header'
+        'time'
+        'img1'
+        'social'
+        'img2'
+        'tilmeld'
+        'footer';
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+
+h3 {
+    width: 100%;
+    font-size: 3.5vw;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+.info-time p, .info-social p {
+    font-size: 15px;
+    line-height: 1.7em;
+}
+
+.img1 {
+    height: 70vh;
+    background-size: contain;
+}
+.img2 {
+    height: 50vh;
+    width: 100%;
+}
+.menu {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+    }
+    .logo {
+        height: 90px;
+        width: 90px;
+        margin-left: 20px;
+        margin-top: 1vh;
+        z-index: 1;
+        border: 1px rgb(255, 255, 255) solid;
+        border-radius: 100%;
+    }
+.nav {
+    display: block;
+    font-size: 16px; 
+    width: 100%;
+    margin: 0;
+    }   
+.nav-item1 {
+    display: block;
+    margin-left: 70px;
+    width: 100%;
+    height: 5vh;
+    margin: 0; 
+    border-radius: 0px;
+    }
+.nav-item2, .nav-item3 {
+    display: block;
+    width: 100%; 
+    height: 5vh;  
+    margin: 0;
+    border-radius: 0px; 
+    }
+
+.btn {
+    width: auto;
+    font-size: 20px;
+    }
+footer {
+    display: block;
+    text-align: center;
+    background-color: #faf7ec;
+    padding: 0;
+    width: 100%;
+}
+    
+.social-link {
+    margin-left: 0px;
+    margin-top: 5vh;
+        
+}
+.social-link a {
+    text-decoration: none;
+        
+}
+.fa-facebook-square{
+    font-size: 1.5em;
+    color:#94C11E;
+}
+    
+.copyright {
+    margin-left: 0;
+    margin-top: 0vh;
+    text-align: center;
+}
+}
